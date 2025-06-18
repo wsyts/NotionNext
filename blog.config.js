@@ -58,4 +58,5 @@ const BLOG = {
 }
 
 module.exports = BLOG
+fix: 合并配置，解决 SHOW_PAGE_COVER 不生效问题
 
