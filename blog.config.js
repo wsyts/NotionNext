@@ -69,3 +69,10 @@ const BLOG = {
 }
 
 module.exports = BLOG
+module.exports = {
+  TITLE: '夜长昼短',
+  AUTHOR: 'hoke',
+  ...
+  SHOW_PAGE_COVER: true,
+  PAGE_COVER_DEFAULT: '',
+}
