@@ -11,7 +11,7 @@ const BLOG = {
   LANG: process.env.NEXT_PUBLIC_LANG || 'zh-CN', // 支持 'zh-CN' 或 'en-US'
 
   // 博客上线年份，默认为当前年份
-  SINCE: process.env.NEXT_PUBLIC_SINCE || 2021, // 博客创建年份
+  SINCE: process.env.NEXT_PUBLIC_SINCE || 2025, // 博客创建年份
 
   // 是否开启伪静态路径（.html 结尾）
   PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || false, // 是否开启伪静态URL
@@ -26,16 +26,16 @@ const BLOG = {
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式时间范围
 
   // 作者昵称
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'NotionNext', // 显示的作者名称
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '夜长昼短', // 显示的作者名称
 
   // 作者简介
   BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的干饭人🍚', // 博主的个人简介
 
   // 博客链接
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com', // 博客网址链接
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://blog.4035666.xyz', // 博客网址链接
 
   // 搜索关键词，SEO优化用
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词，用英文逗号隔开
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'wsyts,防护, 博客', // 网站关键词，用英文逗号隔开
 
   // 网站图标 favicon 的地址
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // 网站 favicon 图标路径
@@ -86,7 +86,7 @@ const BLOG = {
   // 博客欢迎语，多个用逗号隔开
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    'Hi，我是一个程序员, Hi，我是一个打工人,Hi，我是一个干饭人,欢迎来到我的博客🎉',
+    'Hi，我是一个干饭人,欢迎来到我的博客🎉',
 
   // 是否开启UUID跳转到slug的映射
   UUID_REDIRECT: process.env.UUID_REDIRECT || false // 启用UUID跳转功能
