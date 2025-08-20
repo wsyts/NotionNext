@@ -93,14 +93,3 @@ const BLOG = {
 }
 
 module.exports = BLOG
-
-
-  // ✅ 添加封面相关配置
-  SHOW_PAGE_COVER: true,
-  PAGE_COVER_DEFAULT: '',
-
-  // 你也可以添加更多字段，例如：
-  TITLE: '夜长昼短'
-}
-
-module.exports = BLOG
