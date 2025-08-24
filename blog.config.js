@@ -5,7 +5,7 @@ const BLOG = {
     '02ab3b8678004aa69e9e415905ef32a5,en:7c1d570661754c8fbc568e00a01fd70e',
 
   // 博客主题名称，可选值见 themes 文件夹，例如：fukasawa, hexo, matery 等
-  THEME: process.env.NEXT_PUBLIC_THEME || 'fukasawa', // 博客主题设置为 fukasawa
+  THEME: process.env.NEXT_PUBLIC_THEME || 'hexo', // 博客主题设置为 fukasawa
 
   // 网站语言
   LANG: process.env.NEXT_PUBLIC_LANG || 'zh-CN', // 支持 'zh-CN' 或 'en-US'
